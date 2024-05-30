@@ -131,38 +131,3 @@
    // Value between 6 and 10
    ```
 
-## Пример использования `switch`-оператора
-
-Пример демонстрирует все вышеописанные особенности блоков `case`:
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    int value = 2;
-
-    switch (value) {
-        case 1:
-            cout << "Case 1" << endl;
-            break;
-        case 2:
-            cout << "Case 2" << endl;
-            // намеренный fall-through
-        case 3:
-            cout << "Case 3" << endl;
-            break;
-        case 4: {
-            int localVar = 10; // ограниченная область видимости
-            cout << "Case 4, localVar = " << localVar << endl;
-            break;
-        }
-        default:
-            cout << "Default case" << endl;
-    }
-
-    return 0;
-}
-```
-
-В этом примере, при значении `value = 2`, выполнятся оба блока `case 2` и `case 3` из-за отсутствия `break` после `case 2`, что демонстрирует поведение fall-through. Блок `case 4` содержит объявление переменной внутри своих фигурных скобок, что ограничивает её область видимости.

@@ -16,3 +16,11 @@ Ef(x) &= -\frac{\hbar^2}{2m} [4k^2x^2f(x)-4kxf'(x) + f''(x)] + \frac{1}{2}m\omeg
 $$
 
 ![[tttt.png]]
+
+$$
+\begin{array}{lcr}
+  z & = & a \\
+  & = & a \\
+  f(x,y,z) & = & x + y + z
+\end{array}
+$$

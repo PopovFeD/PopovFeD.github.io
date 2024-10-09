@@ -27,3 +27,7 @@ StudC++ - cайт-шпаргалка для изучения C++ на Физте
 
 ## Материалы не по задавальнику:
 - [[m1]]
+
+## ПЦП
+[Ссылка на презентацию](https://drive.google.com/file/d/1qog4d4OJU7WTKo3TPAZqe8Ji7eGv2z3J/view?usp=sharing)
+[GitHub](https://github.com/PopovFeD/DPP)
